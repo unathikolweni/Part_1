@@ -4,6 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        
+    body{
+        background-image: url(Images/background.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    /*footer stays at the bottom*/
+footer{
+    background-color:black;
+    color:white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+    .container{
+        max-width: 1200px;
+        margin: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        padding-left: 25px;
+    }
+    nav ul{
+    list-style: none;
+    padding: 0;
+    }
+    nav ul li{
+        display: inline;
+        margin:0 1rem;
+    }
+    .header{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 300px;
+        color:white;
+    }
+    </style>
 </head>
 <body>
     <div class="container">
