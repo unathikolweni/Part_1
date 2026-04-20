@@ -73,6 +73,38 @@ footer{
             </ul>
         </nav>
     </div>
-</div>
+<!--Creation of the form-->
+<form action="submit" method="post">
+    <!--name and input label-->
+<label for ="Name">Name:</label><br>
+<input type="text"name="name" id="name" required><br>
+<!--email and input label-->
+<label for="email">Email:</label><br>
+<input type="email" id="email" name="email" required><br>
+<!--Textarea-->
+<label for="message">Message:</label><br>
+<textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+<!--Radio Button-->
+<label>Gender:</label><br>
+<input type="radio"name="Gender"id="male"value="male">
+<label for ="Male">Male</label>
+<input type="radio"name="Gender"id="female"value="female">
+<label for="female">Female</label>
+<input type="radio"name="Other"id="other"value="other"> 
+<label for="other">Other</label><br><br>
+<!--Dropdown-->
+<label for="City">City:</label><br>
+<select id="City"name="City">
+    <option value="JHB">Johannesburg</option>
+    <option value="CPT">Cape Town</option>
+    <option value="BLM">Bloemfontein</option>
+    <option value="ECLn">East London</option>
+    <option value="DUB">Durban</option>
+    <option value="Other">Other</option>
+</select><br><br>
+    
+<input type="submit" value="Submit">
+
+</form>
 </body>
 </html>
